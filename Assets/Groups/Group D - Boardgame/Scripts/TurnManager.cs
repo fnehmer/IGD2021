@@ -91,17 +91,17 @@ public class TurnManager : MonoBehaviour
         if (useTestMinigames) {
             // replace the real minigame list with dummies
             GameList.FREE_FOR_ALL_LIST.Clear();
-            GameList.FREE_FOR_ALL_LIST.Add(new TestGameD());
-            GameList.FREE_FOR_ALL_LIST.Add(new TestGameD());
-            GameList.FREE_FOR_ALL_LIST.Add(new TestGameD());
+            GameList.FREE_FOR_ALL_LIST.Add(new KartRacingGame());
+            GameList.FREE_FOR_ALL_LIST.Add(new KartRacingGame());
+            GameList.FREE_FOR_ALL_LIST.Add(new KartRacingGame());
             GameList.SINGLE_VS_TEAM_LIST.Clear();
-            GameList.SINGLE_VS_TEAM_LIST.Add(new TestGameD());
-            GameList.SINGLE_VS_TEAM_LIST.Add(new TestGameD());
-            GameList.SINGLE_VS_TEAM_LIST.Add(new TestGameD());
+            GameList.SINGLE_VS_TEAM_LIST.Add(new KartRacingGame());
+            GameList.SINGLE_VS_TEAM_LIST.Add(new KartRacingGame());
+            GameList.SINGLE_VS_TEAM_LIST.Add(new KartRacingGame());
             GameList.TEAM_VS_TEAM_LIST.Clear();
-            GameList.TEAM_VS_TEAM_LIST.Add(new TestGameD());
-            GameList.TEAM_VS_TEAM_LIST.Add(new TestGameD());
-            GameList.TEAM_VS_TEAM_LIST.Add(new TestGameD());
+            GameList.TEAM_VS_TEAM_LIST.Add(new KartRacingGame());
+            GameList.TEAM_VS_TEAM_LIST.Add(new KartRacingGame());
+            GameList.TEAM_VS_TEAM_LIST.Add(new KartRacingGame());
         }
     }
 
