@@ -22,9 +22,10 @@ public class Item : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(!isPickedUp){
-            transform.Rotate(new Vector3(0f,2.0f,0f) , Space.World);
-            if(transform.position.y < -10)
+        if (!isPickedUp)
+        {
+            transform.Rotate(new Vector3(0f, 2.0f, 0f), Space.World);
+            if (transform.position.y < -10)
                 Destroy(this.gameObject);
         }
     }
@@ -46,4 +47,5 @@ public class Item : MonoBehaviour
             return false;
         return true;
     }
+
 }
